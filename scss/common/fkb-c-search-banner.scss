@@ -1,27 +1,11 @@
-.welcome-banner,
 .custom-search-banner-wrap {
-  display: none;
-}
-
-.navigation-topics,
-.navigation-categories,
-.categories-list,
-body[class^="tag-"]:not(.archetype-regular):not(.archetype-banner),
-body[class*=" tag-"]:not(.archetype-regular):not(.archetype-banner),
-body.category:not(.archetype-regular):not(.archetype-banner) {
-  .welcome-banner,
-  .custom-search-banner-wrap {
-    display: block;
+  .search-input {
+    input#search-term[type=text] {
+      box-shadow: none;
+    }
   }
-  .custom-search-banner-wrap {
-    .search-input {
-      input#search-term[type=text] {
-        box-shadow: none;
-      }
-    }
-    .results {
-      top: 3em;
-      border-radius: var(--d-default-border-radius);
-    }
+  .results {
+    top: 3em;
+    border-radius: var(--d-default-border-radius);
   }
 }
