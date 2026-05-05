@@ -10,13 +10,6 @@ html.has-full-page-chat {
   }
 }
 
-body.has-full-page-chat {
-  .welcome-banner,
-  .custom-search-banner-wrap {
-    display: none;
-  }
-}
-
 body.has-sidebar-page.has-full-page-chat {
   overflow-x: hidden;
 
