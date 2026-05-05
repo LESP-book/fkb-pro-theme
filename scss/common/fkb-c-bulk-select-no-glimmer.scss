@@ -2,7 +2,7 @@
   .navigation-topics,
   .user-messages-page,
   body[class*="tag-"]:not(.archetype-regular):not(.archetype-banner),
-  body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
+  body.category:not(.archetype-regular):not(.archetype-banner) {
     &.glimmer-topic-list-failed {
       &.bulk-select-enabled {
         .mobile-view & {

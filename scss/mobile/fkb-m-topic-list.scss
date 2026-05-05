@@ -5,7 +5,7 @@
 .navigation-topics,
 .categories-list,
 body[class*="tag-"]:not(.archetype-regular):not(.archetype-banner),
-body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
+body.category:not(.archetype-regular):not(.archetype-banner) {
   .list-controls {
     z-index: z("usercard");
     .container {
@@ -154,7 +154,7 @@ body.nav-controls-hidden {
   &.navigation-topics,
   &.categories-list,
   &[class*="tag-"]:not(.archetype-regular):not(.archetype-banner),
-  &[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
+  &.category:not(.archetype-regular):not(.archetype-banner) {
     .list-controls {
       .navigation-container .navigation-controls {
         right: -80px;

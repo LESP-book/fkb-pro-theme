@@ -2,7 +2,7 @@
   .navigation-topics,
   .user-messages-page,
   body[class*="tag-"]:not(.archetype-regular):not(.archetype-banner),
-  body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
+  body.category:not(.archetype-regular):not(.archetype-banner) {
     &:not(.glimmer-topic-list-failed) {
       // Safari requires as it handle tpl as table-row and position absolute / relative not works
       .topic-list {

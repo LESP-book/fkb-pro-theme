@@ -2,7 +2,7 @@
 
 // Category
 
-body[class*="category-"] {
+body.category {
   &:not(.archetype-regular) {
     &:not(.archetype-banner) {
       .list-controls {

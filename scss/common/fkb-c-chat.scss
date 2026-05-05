@@ -2,9 +2,18 @@
 
 html.has-full-page-chat {
   #main-outlet {
+    min-width: 0;
     .full-page-chat {
       background: var(--secondary);
+      width: 100%;
     }
+  }
+}
+
+body.has-full-page-chat {
+  .welcome-banner,
+  .custom-search-banner-wrap {
+    display: none;
   }
 }
 

@@ -20,7 +20,7 @@
     &.categories-list,
     &.navigation-filter,
     &[class*="tag-"]:not(.archetype-regular):not(.archetype-banner),
-    &[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
+    &.category:not(.archetype-regular):not(.archetype-banner) {
     
       // Navigation controls
       .list-controls {
@@ -44,7 +44,7 @@
       &.navigation-filter,
       &.categories-list,
       &[class*="tag-"]:not(.archetype-regular):not(.archetype-banner),
-      &[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
+      &.category:not(.archetype-regular):not(.archetype-banner) {
         // Navigation controls
         .list-controls {
           .nav-pills {      
@@ -65,7 +65,7 @@
       &.navigation-filter,
       &.categories-list,
       &[class*="tag-"]:not(.archetype-regular):not(.archetype-banner),
-      &[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
+      &.category:not(.archetype-regular):not(.archetype-banner) {
         
         // Bulk Select
         .topic-list,

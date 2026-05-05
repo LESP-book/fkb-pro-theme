@@ -57,9 +57,12 @@ h2.username,
 // User navigation
 
 .new-user-wrapper {
+  box-sizing: border-box;
+  max-width: 100%;
   margin-top: 1em;
   .user-navigation {
     &.user-navigation-primary {
+      box-sizing: border-box;
       padding: 0 1em;
       margin: 1em 0 0;
       border-bottom: none;
@@ -67,6 +70,9 @@ h2.username,
     }
   }
   .new-user-content-wrapper {
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 0;
     position: relative;
     margin-top: 1em;
     min-height: calc(100vh - 20em);
@@ -80,6 +86,9 @@ h2.username,
       left: calc(50% - 20px);
     }
     .user-content {
+      box-sizing: border-box;
+      max-width: 100%;
+      min-width: 0;
       padding: 1em;
       border-radius: var(--d-default-border-radius);
       margin-top: 1em;

@@ -15,12 +15,29 @@
 }
 
 .search-container {
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
   .search-header {
     border-radius: var(--d-default-border-radius);
   }
   .search-advanced {
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 0;
     .search-info {
       background-color: transparent;
+    }
+    .search-advanced-options,
+    .search-advanced-filters {
+      box-sizing: border-box;
+      max-width: 100%;
+      min-width: 0;
+    }
+    .search-advanced-options {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(20em, 100%), 1fr));
+      gap: 1em;
     }
   }
 }
