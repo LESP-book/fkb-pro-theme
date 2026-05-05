@@ -34,11 +34,6 @@ body.has-sidebar-page {
           var(--composer-vh, var(--1dvh)) * 100 - var(--header-offset, 0px) - 2em
         );
       }
-      .sidebar-footer-wrapper {
-        .sidebar-footer-container {
-          background: var(--primary-low);
-        }
-      }
     }
   }
   &.has-full-page-chat {
